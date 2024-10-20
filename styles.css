@@ -1,0 +1,10 @@
+.selected {
+    text-decoration: underline;
+}
+.bg-logo {
+    background-color: #0d5097;
+}
+
+.text-logo {
+    color: #0d5097 !important;
+}
