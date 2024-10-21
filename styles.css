@@ -4,7 +4,32 @@
 .bg-logo {
     background-color: #0d5097;
 }
-
+.bg-logo-d {
+    background-color: #09386a;
+}
 .text-logo {
     color: #0d5097 !important;
+}
+.text-logo-d {
+    color: #09386a;
+}
+.nav-link:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.text-justify {
+    text-align: justify;
+}
+.arcos {
+    /* position: absolute; */
+    /* background-image: url("./images/arcos.png"); */
+    background-image: url("./images/arcos_lele.png");
+    background-repeat: repeat;
+    background-size: 40%;
+    /* top: 600px;
+    left: 0px;
+    height: 400px;
+    width: 100vw;
+    z-index: -1; */
 }

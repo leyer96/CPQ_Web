@@ -8,7 +8,7 @@
 </head>
 <body>
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg border-bottom">
+    <nav class="navbar navbar-expand-lg border-bottom sticky-top bg-white">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="./images/logo.jpg" alt="Bootstrap" width="60" height="48">
@@ -18,52 +18,101 @@
           </button>
           <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
             <ul class="navbar-nav text-logo"> <!-- me-auto mb-2 mb-lg-0 -->
-              <li class="nav-item">
-                <a class="nav-link fw-bold text-logo" aria-current="page" href="#">Nosotros</a>
-              </li>
               <li class="nav-item selected">
                 <a class="nav-link fw-bold text-logo" href="#">Congreso 2024</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link fw-bold text-logo" href="#">Contacto</a>
+                <a class="nav-link fw-bold text-logo" aria-current="page" href="./about_us.html">Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link fw-bold text-logo" href="./team.html">Mesa Directiva</a>
               </li>
             </ul>
           </div>
         </div>
       </nav>
-    <!-- LATEST HEADER -->
+    <!-- SECTION: MAIN -->
+    <!-- HEADER -->
     <div class="my-3 mx-3 d-inline-block p-2">
         <h1 class="w-auto text-logo fw-bold display-4">Congreso 2024</h1>
     </div>
-    <!-- LATEST -->
-    <img src="./images/congreso_2024/congreso-logo.jpg" class="col-lg-6 d-block mx-auto" alt="Logo Congreso 2024">
-    <!-- CARROUSEL -->
-    <!-- <div class="container col-lg-6 col-md-12">
-        <div id="carouselExampleCaptions" class="carousel carousel-dark slide">
-            <div class="carousel-indicators">
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
-              <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            </div>
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="./images/congreso_2024/congreso-logo.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./logo.jpg" class="d-block w-100" alt="...">
-              </div>
-              <div class="carousel-item">
-                <img src="./logo.jpg" class="d-block w-100" alt="...">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
-          </div>
-    </div>  -->
+    <!-- CONTENT -->
+     <div class="container w-75 bg-logo-d text-white fw-bold rounded mb-5 p-4 d-flex flex-wrap justify-content-center">
+      <p>El Colegio de Pediatras de Querétaro A.C. se complace de anunciar que llevará a cabo su XVI congreso estatal. Sé parte de esta única experiencia durante el 26, 27 y 28 de noviembre en el nuevo Hospital Ángeles Centro Sur. Para <a href="#info">inscripciones</a>, favor de contactar a la Dra. Martha García.</p>
+      <p>¿Interesado/a en participar con un trabajo libre? Revisa el siguiente <a href="./documents/Congreso_2024/convocatoria_trabajos_libres.pdf" target="_blank" rel="noopener noreferrer">documento</a>.</p>
+     </div>
+    <img src="./images/congreso_2024/poster.jpeg" class="col-lg-6 d-block mx-auto" alt="Logo Congreso 2024">
+    <!-- SECTION: MODULES -->
+    <!-- HEADER -->
+    <div class="my-3 mx-3 d-inline-block p-2">
+      <h1 class="w-auto text-logo fw-bold display-4">Cursos y Talleres</h1>
+    </div>
+    <!-- CONTENT -->
+    <div class="container w-80 d-flex flex-wrap justify-content-around gap-5">
+      <div class="card col-lg-3 col-md-5 col-sm-12">
+        <img src="./images/congreso_2024/PEARS.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Fecha: 2 de noviembre</p>
+          <p class="card-text">Costo: $2,900</p>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-5 col-sm-12">
+        <img src="./images/congreso_2024/primeros_auxilios.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Fecha: 16 de noviembre</p>
+          <p class="card-text">Costo: $500</p>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-5 col-sm-12">
+        <img src="./images/congreso_2024/ciencia_asma.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Fecha: 23 de noviembre</p>
+          <p class="card-text">Costo: $500</p>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-5 col-sm-12">
+        <img src="./images/congreso_2024/conocimiento_asma.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Fecha: 23 de noviembre</p>
+          <p class="card-text">Costo: $500</p>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-5 col-sm-12">
+        <img src="./images/congreso_2024/RENEO.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Fecha: 25 y 26 de noviembre</p>
+          <p class="card-text">Costo: $3,200</p>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-6 col-sm-12">
+        <img src="./images/congreso_2024/accesos_vasculares.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Fecha: 27 de noviembre</p>
+          <p class="card-text">Costo: $1,0000</p>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-5 col-sm-12">
+        <img src="./images/congreso_2024/neurodesarrollo.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Fecha: 28 de noviembre</p>
+          <p class="card-text">Costo: $500</p>
+        </div>
+      </div>
+      <div class="card col-lg-3 col-md-5 col-sm-12">
+        <img src="./images/congreso_2024/adolescencia.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text">Fecha: 29 de noviembre</p>
+          <p class="card-text">Costo: $500</p>
+        </div>
+      </div>
+    </div>
+    <!-- MÁS INFORMACIÓN -->
+    <!-- HEADER -->
+    <div class="my-3 mx-3 d-inline-block p-2">
+      <h1 class="w-auto text-logo fw-bold display-4">Inscripciones</h1>
+    </div>
+    <!-- CONTENT -->
+    <div id="info">
+      <img src="./images/congreso_2024/informes.jpg" class="col-lg-6 d-block mx-auto" alt="Logo Congreso 2024">
+    </div>
 </body>
