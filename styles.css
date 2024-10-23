@@ -29,8 +29,15 @@
 
 
 @media (max-width: 1000px) {
+    #vanish {
+        display: none;
+    }
     #AAA {
         margin-top: 1rem;
+        top: -10rem;
         position: static !important;
+    }
+    .sm-90 {
+        max-width: 90vw;  
     }
   } 
