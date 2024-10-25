@@ -22,14 +22,22 @@
     text-align: justify;
 }
 .arcos {
-    /* position: absolute; */
-    /* background-image: url("./images/arcos.png"); */
     background-image: url("./images/arcos_lele.png");
     background-repeat: repeat;
     background-size: 40%;
-    /* top: 600px;
-    left: 0px;
-    height: 400px;
-    width: 100vw;
-    z-index: -1; */
 }
+
+
+@media (max-width: 1000px) {
+    #vanish {
+        display: none;
+    }
+    #AAA {
+        margin-top: 1rem;
+        top: -10rem;
+        position: static !important;
+    }
+    .sm-90 {
+        max-width: 90vw;  
+    }
+  } 
