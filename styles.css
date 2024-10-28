@@ -27,6 +27,10 @@
     background-size: 40%;
 }
 
+.frame-pdf {
+    height: 90vh;
+}
+
 
 @media (max-width: 1000px) {
     #vanish {
