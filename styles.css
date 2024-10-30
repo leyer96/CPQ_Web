@@ -31,6 +31,24 @@
     height: 90vh;
 }
 
+.consent {
+    background-color: #505c61;
+    color: white;
+    height: 20vh;
+    /* position:fixed;
+    bottom: 0; */
+}
+
+.consent-content {
+    height: 80%;
+    overflow: scroll;
+}
+
+.consent-content > p {
+    width: 95%;
+    margin: 0 auto;
+}
+
 
 @media (max-width: 1000px) {
     #vanish {
